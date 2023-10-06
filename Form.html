@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <Form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="POST">
+        <h2>Dados do candango</h2>
+            <label for="nome">Nome</label> 
+            <input type="text" name="nome" id="nome" required></imput><br>
+
+            <label for="idade">Idade</label>
+            <input type="number" id="idade" name="idade" required><br>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" required><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label>Modelo Existente Preferido:</label><br>
+            <input type="radio" id="palio" name="modelo_preferido" value="Palio">
+            <label for="palio">Palio</label><br>
+            
+            <input type="radio" id="h20" name="modelo_preferido" value="H20">
+            <label for="h20">H20</label><br>
+    
+            <input type="radio" id="polo" name="modelo_preferido" value="Polo">
+            <label for="polo">Polo</label><br>
+
+            <label for="possui">Possui algum veiculo</label>
+            <input type="radio" id="sim" name="possui" value="sim" required>
+            <label for="sim">Sim</label>
+            <input type="radio" id="nao" name="possui" value="nao" required>
+            <label for="nao">Não</label><br>
+
+            <input type="submit" value="Enviar Dados">
+            <input type="reset" value="Limpar Formulário">
+
+    </Form><br>
+
+    <a href="index.html">Retorno a pagina inicial do esquema</a>
+</body>
+</html>
