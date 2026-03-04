@@ -94,6 +94,15 @@ body {
     box-shadow: 0 0 12px 8px rgba(138, 43, 226, 0.9);
 }
 
+.project-card iframe {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px #8c00ff;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 /*contatos*/
 
 .contatosTitle{
